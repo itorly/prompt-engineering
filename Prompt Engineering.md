@@ -39,8 +39,8 @@ pip install openai
 jupyter-notebook
 ```
 
-## 2.1.the first principle
-the first principle is to write clear and specific instructions.
+## 2.1.Principle 1
+- Write clear and specific instructions.
 
 ### Tactic 1: Use delimiters
 
@@ -74,3 +74,10 @@ Check assumptions are required to do the task.
 
 ### Tactic 4: Few-shot prompting
 Give successful examples of completing tasks, then ask the model to perform the task.
+
+
+## 2.2.Principle 2
+- Give the model time to think.
+
+
+
