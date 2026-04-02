@@ -11,3 +11,31 @@
 	    - RLHF(基于人类反馈的强化学习): Reinforcement Learning with Human Feedback
 	    - Helpful, Honest, Harmless
 
+# 2.Guidelines
+
+- the first principle is to write clear and specific instructions.
+
+- the second principle is to give the model time to think.
+
+
+## Operation
+
+1. on windows 10, open "Anaconda Prompt"
+2. create a virtual environment
+```bash
+conda create -n env_name python=3.12
+```
+3. activate the new virtual environment
+```bash
+conda activate env_name
+```
+4. install OpenAI Python library
+We will use OpenAI Python library to access the OpenAI API.
+```
+pip install openai
+```
+5. install jupyter-notebook
+```bash
+jupyter-notebook
+```
+
