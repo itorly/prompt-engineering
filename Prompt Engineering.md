@@ -39,3 +39,6 @@ pip install openai
 jupyter-notebook
 ```
 
+## 2.1.the first principle
+the first principle is to write clear and specific instructions.
+
