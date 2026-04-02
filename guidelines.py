@@ -27,7 +27,7 @@ In many cases, longer prompts provide more clarity \
 and context for the model, which can lead to \
 more detailed and relevant outputs.
 """
-
+# Tactic 1:Use delimiters to clearly indicate distinct parts of the input
 prompt = f"""
 Summarize the text delimited by triple backticks \
 into a single sentence.
