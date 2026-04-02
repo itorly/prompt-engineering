@@ -33,6 +33,15 @@ Summarize the text delimited by triple backticks \
 into a single sentence.
 ```{text}```
 """
+response = get_completion(prompt)
+print(response)
 
+# Tactic 2: Ask for a structured output
+prompt = f"""
+ Generate a list of three made-up book titles along \ 
+ with their authors and genres.
+  Provide them in jason format with the following keys:
+  book_id, title, author, genre.
+"""
 response = get_completion(prompt)
 print(response)

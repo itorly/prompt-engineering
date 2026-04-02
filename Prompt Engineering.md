@@ -66,3 +66,5 @@ Prompt Injections: if a user is allowed to add some input into your prompt, they
 ![Possible "Prompt Injection"](images/04-58.png)
 
 
+### Tactic 2:  Ask for structured output
+HTML, JSON
