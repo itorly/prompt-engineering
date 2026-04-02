@@ -42,7 +42,7 @@ jupyter-notebook
 ## 2.1.the first principle
 the first principle is to write clear and specific instructions.
 
-### Tactic 1:Use delimiters
+### Tactic 1: Use delimiters
 
 Triple quotes: """
 
@@ -66,5 +66,9 @@ Prompt Injections: if a user is allowed to add some input into your prompt, they
 ![Possible "Prompt Injection"](images/04-58.png)
 
 
-### Tactic 2:  Ask for structured output
+### Tactic 2: Ask for structured output
 HTML, JSON
+
+###  Tactic 3: Check whether conditions are satisfied
+Check assumptions are required to do the task.
+
