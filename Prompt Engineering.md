@@ -59,3 +59,10 @@ Anything that just kind of makes this clear to the model that this is a separate
 
 Using delimiter is also a helpful technique to try and avoid prompt injections.
 
+#### Avoid Prompt Injections
+
+Prompt Injections: if a user is allowed to add some input into your prompt, they might give kind of conflicting instructions to the model that might kind of make it follow the users instructions rather than doing what you wanted it to do.
+
+![Possible "Prompt Injection"](images/04-58.png)
+
+
