@@ -72,3 +72,5 @@ HTML, JSON
 ###  Tactic 3: Check whether conditions are satisfied
 Check assumptions are required to do the task.
 
+### Tactic 4: Few-shot prompting
+Give successful examples of completing tasks, then ask the model to perform the task.
