@@ -42,3 +42,20 @@ jupyter-notebook
 ## 2.1.the first principle
 the first principle is to write clear and specific instructions.
 
+### Tactic 1:Use delimiters
+
+Triple quotes: """
+
+Triple backticks:` ``` `,
+
+Triple dashes: ---,
+
+Angle brackets: <>,
+
+XML tags: ` <tag> </tag> `
+
+
+Anything that just kind of makes this clear to the model that this is a separate section. 
+
+Using delimiter is also a helpful technique to try and avoid prompt injections.
+
