@@ -69,7 +69,7 @@ Prompt Injections: if a user is allowed to add some input into your prompt, they
 ### Tactic 2: Ask for structured output
 HTML, JSON
 
-###  Tactic 3: Check whether conditions are satisfied
+### Tactic 3: Check whether conditions are satisfied
 Check assumptions are required to do the task.
 
 ### Tactic 4: Few-shot prompting
@@ -88,3 +88,6 @@ Step 2: ...
 ...
 
 Step N: ...
+
+### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion
+
