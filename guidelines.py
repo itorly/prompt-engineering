@@ -279,3 +279,10 @@ Actual Solution:
 
 response = get_completion(prompt)
 print(response)
+
+# hallucination test
+prompt = f"""
+Tell me about AeroGlide UltraSlim Smart Toothbrush by Bole.
+"""
+response = get_completion(prompt)
+print(response)

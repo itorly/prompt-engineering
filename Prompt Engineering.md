@@ -91,3 +91,13 @@ Step N: ...
 
 ### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion
 
+
+## 2.3.Model Limitations
+
+### 2.3.1.Hallucination
+The model is not able to verify whether the information it is giving is real or not.
+Makes statements that sound plausible but are not true.
+
+Reducing hallucinations:
+First find relevant information,
+then answer the question based on the relevant information.
