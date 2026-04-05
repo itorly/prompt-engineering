@@ -40,3 +40,37 @@ Review: ```{prod_review}```
 
 response = get_completion(prompt)
 print(response)
+
+# 4.2.Summary of Specified Information
+# give feedback to the Shipping deparmtment
+prompt = f"""
+Your task is to generate a short summary of a product \
+review from an ecommerce site to give feedback to the \
+Shipping deparmtment. 
+
+Summarize the review below, delimited by triple 
+backticks, in at most 30 words, and focusing on any aspects \
+that mention shipping and delivery of the product. 
+
+Review: ```{prod_review}```
+"""
+
+response = get_completion(prompt)
+print(response) 
+
+# give feedback to the pricing deparmtment
+prompt = f"""
+Your task is to generate a short summary of a product \
+review from an ecommerce site to give feedback to the \
+pricing deparmtment, responsible for determining the \
+price of the product. 
+
+Summarize the review below, delimited by triple 
+backticks, in at most 30 words, and focusing on any aspects \
+that are relevant to the price and perceived value. 
+
+Review: ```{prod_review}```
+"""
+
+response = get_completion(prompt)
+print(response) 
