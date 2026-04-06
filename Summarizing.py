@@ -74,3 +74,19 @@ Review: ```{prod_review}```
 
 response = get_completion(prompt)
 print(response) 
+
+# 4.3.Extract the Specified Information
+prompt = f"""
+Your task is to extract relevant information from \ 
+a product review from an ecommerce site to give \
+feedback to the Shipping department. 
+
+From the review below, delimited by triple quotes \
+extract the information relevant to shipping and \ 
+delivery. Limit to 30 words. 
+
+Review: ```{prod_review}```
+"""
+
+response = get_completion(prompt)
+print(response) 
