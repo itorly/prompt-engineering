@@ -31,3 +31,12 @@ Lumina seems to me to be a great company that cares \
 about their customers and products!!
 """ 
 
+## 5.1.Text sentiment classification
+prompt = f"""
+What is the sentiment of the following product review, 
+which is delimited with triple backticks?
+
+Review text: '''{lamp_review}'''
+"""
+response = get_completion(prompt)
+print(response) 
