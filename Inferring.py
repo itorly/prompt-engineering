@@ -40,3 +40,29 @@ Review text: '''{lamp_review}'''
 """
 response = get_completion(prompt)
 print(response) 
+
+## 5.2.Control the output style
+### one-word answer
+prompt = f"""
+What is the sentiment of the following product review, 
+which is delimited with triple backticks?
+
+Give your answer as a single word, either "positive" \
+or "negative".
+
+Review text: '''{lamp_review}'''
+"""
+response = get_completion(prompt)
+print(response) 
+
+### list of words
+prompt = f"""
+Identify a list of emotions that the writer of the \
+following review is expressing. Include no more than \
+five items in the list. Format your answer as a list of \
+lower-case words separated by commas.
+
+Review text: '''{lamp_review}'''
+"""
+response = get_completion(prompt)
+print(response) 
