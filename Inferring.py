@@ -84,3 +84,8 @@ Review text: '''{lamp_review}'''
 """
 response = get_completion(prompt)
 print(response) 
+
+# {
+#  "Item": "lamp",
+#  "Brand": "Lumina"
+# } 
