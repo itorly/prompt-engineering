@@ -180,3 +180,8 @@ Text sample: '''{story}'''
 """
 response = get_completion(prompt)
 print(response) 
+
+## 5.7.Subject Content Reminder
+topic_dict = {i.split(': ')[0]: int(i.split(': ')[1]) for i in response.split(sep='\n')}
+if topic_dict['nasa'] == 1:
+   print("ALERT: New NASA story!") 
